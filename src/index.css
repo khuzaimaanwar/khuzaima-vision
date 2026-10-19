@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f6f0;
+    color: #1a2a6c;
+  }
+  
+  h1, h2, h3, h4, .font-serif-title {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+/* Custom Gold and Dark Blue Utilities */
+.bg-gallery-blue {
+  background-color: #1a2a6c;
+}
+
+.text-gallery-blue {
+  color: #1a2a6c;
+}
+
+.border-gallery-blue {
+  border-color: #1a2a6c;
+}
+
+.bg-gallery-gold {
+  background-color: #c9a84c;
+}
+
+.text-gallery-gold {
+  color: #c9a84c;
+}
+
+.border-gallery-gold {
+  border-color: #c9a84c;
+}
+
+.bg-gallery-soft {
+  background-color: #f8f6f0;
+}
+
+/* Custom Scrollbar for elegant gallery */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede2;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9a84c;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1a2a6c;
+}
